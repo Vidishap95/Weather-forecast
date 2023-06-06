@@ -1,3 +1,63 @@
-header {
-    background-color: rgb(240, 245, 249);
+h1 {
+    text-align: center;
+    border-style: solid;
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+    background: linear-gradient(to right, ##0066b2,#002D62);
+    width: 100%;
+}
+
+h2 {
+    display: inline;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.form-label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.current-container,
+.forecast-container {
+    border-style: solid;
+}
+
+.search-results {
+    border-top: 2px solid;
+}
+
+.btn-secondary {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+    color: black;
+}
+
+#search-btn {
+    width: 100%;
+}
+
+#city-current {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#card-1,
+#card-2,
+#card-3,
+#card-4,
+#card-5 {
+    display: inline-block;
+    text-align: left;
+    border-style: solid;
+    background-color: rgb(4, 74, 179);
+    color: rgb(252, 252, 252);
+    padding: 10px;
 }
